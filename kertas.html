@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Frui‑Chan Fortune Slip</title>
+  <link rel="stylesheet" href="kertas.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="stage">
+      <div class="mascot">
+        <!-- use provided mascot image -->
+        <img src="say hiii.png" alt="Frui-Chan smiling">
+        <div class="title">Frui‑Chan say hi!</div>
+        <div class="subtitle">Scan sekali sehari untuk pesan rahasia manis ✨</div>
+      </div>
+
+      <div class="card" role="region" aria-label="Frui Chan Fortune">
+        <div class="card-top">
+          <div class="brand">
+            <div class="logo">FC</div>
+            <div>
+              <h1>Frui‑Chan Fortune Slip</h1>
+              <p>Dapatkan pesan manis, fakta buah, & kesempatan rare!</p>
+            </div>
+          </div>
+          <div class="controls">
+            <button class="btn" id="openBtn">Buka Pesan Hari Ini</button>
+            <button class="btn ghost" id="againBtn">Coba Lagi</button>
+          </div>
+        </div>
+
+        <div class="paper-wrap">
+          <div class="paper hidden" id="paper">
+            <img class="frui-small" src="/mnt/data/e861e4ca-93c6-43b7-93fb-c6640bd27372.png" alt="frui small">
+            <div class="message" id="message">Halo! Tekan "Buka Pesan Hari Ini" untuk melihat pesan manis dari Frui‑Chan.</div>
+            <div class="meta">
+              <div class="fact" id="fact">Fun fact: stroberi bukan berry!</div>
+              <div class="rarity" id="rarity">—</div>
+            </div>
+            <canvas class="confetti" id="confettiCanvas" width="600" height="400" style="display:none"></canvas>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="small">Pesan disegarkan setiap 24 jam. Rare slip muncul jarang — semoga beruntung!</div>
+          <div>
+            <button class="btn ghost" id="shareBtn">Share</button>
+            <button class="btn ghost" id="copyBtn">Copy</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+   
+  </script>
+</body>
+</html>
